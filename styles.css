@@ -4,19 +4,25 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 140px;
   padding: 20px;
+  width: 100%;
 
   background: linear-gradient(101.36deg, #E9492B 45.78%,
     rgba(233, 73, 43, 0) 62.52%
   ), #E72357;  
   color: #FFFFFF;
-
-  
 }
 
 .left-side {
@@ -69,7 +75,6 @@ header {
     display: flex;
     flex-direction: column;
     height: 600px;
-    width: auto;
   }
 
   header div {
