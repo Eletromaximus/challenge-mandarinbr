@@ -94,3 +94,13 @@ main {
 
   background-color: #2BE9B0;
 }
+
+@media only screen and (max-width: 872px) {
+  .container-daily {
+    justify-content: center;
+  }
+
+  .daily + .daily {
+    margin-top: 20px;
+  }
+}
